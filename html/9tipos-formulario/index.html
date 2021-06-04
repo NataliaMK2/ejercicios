@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ejemplo de formulario basico</h1>
+    <form>
+        <label>nombre:</label> <br>
+        <input type="text" name="buscador" id="" placeholder="indica tu nombre"> <br><br>
+        <label>apellido:</label> <br>
+        <input type="text" name="buscador" id="" placeholder="apellido"><br><br>
+
+
+        <label>Escoja:</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br><br>
+
+        <select name="" id="">
+            <option value="">a</option>
+            <option value="">b</option>
+            <option value="">c</option>
+            <option value="">d</option>
+            <option value="">e</option>
+
+        </select>
+        <br>
+        <br>
+
+        <button type="submit">enviar</button>
+    
+    </form>
+    
+    <form action="">
+        <h1><label>formulario con datalist</label></h1><br>
+        <label for="ice-cream-choice">elije un sabor:</label>
+        <input list="ice-cream-flavors"/>
+        <datalist id="ice-cream-flavors">
+            <option value="Chocolate"></option>
+            <option value="Coconut"></option>
+            <option value="Mint"></option>
+            <option value="Strawberry"></option>
+            <option value="Vanilla"></option>
+        </datalist>
+   
+    </form>
+</body>
+</html>
